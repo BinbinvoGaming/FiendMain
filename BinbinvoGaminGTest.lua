@@ -272,7 +272,7 @@ local NotiFrame = Instance.new("Frame")
 		)
 	end
  
- do  local Update =  game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("Fiendhub")  if Update then Update:Destroy()
+ do  local Update =  game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("binbinvogaminghub")  if Update then Update:Destroy()
  end 
  end
  
@@ -288,13 +288,13 @@ local NotiFrame = Instance.new("Frame")
  local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
  
  local Fiendhub = Instance.new("ScreenGui")
- Fiendhub.Name = "Fiendhub"
+ Fiendhub.Name = "binbinvogaminghub"
  Fiendhub.Parent = game.CoreGui
  Fiendhub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
  
  local Main = Instance.new("Frame")
  Main.Name = "Main"
- Main.Parent = Fiendhub
+ Main.Parent = binbinvogaminghub
  Main.ClipsDescendants = true
  Main.AnchorPoint = Vector2.new(0.5,0.5)
  Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -607,7 +607,7 @@ local NotifHolderUIStroke = Instance.new("UIStroke")
 local Line = Instance.new("Frame")
 
 NotificationHold.Name = "NotificationHold"
-NotificationHold.Parent = Fiendhub
+NotificationHold.Parent = binbinvogaminghub
 NotificationHold.BackgroundColor3 = _G.WindowBackgroundColor
 NotificationHold.BackgroundTransparency = 1
 NotificationHold.BorderSizePixel = 0
