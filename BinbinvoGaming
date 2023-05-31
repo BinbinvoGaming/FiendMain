@@ -164,7 +164,7 @@ function Update:Window(text,logo,keybind)
  Logo.BackgroundTransparency = 1.000
  Logo.Position = UDim2.new(-0.01, 0,-0.170, 0)
  Logo.Size = UDim2.new(0, 55,0, 45)
-Logo.Image = "rbxassetid://12511245920"
+Logo.Image = "https://cdn.discordapp.com/attachments/1082314881451171840/1113329281666383934/Screenshot_2023-03-26-12-29-14-601-edit_com.pinterest.jpg"
 
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
@@ -186,7 +186,7 @@ Logo.Image = "rbxassetid://12511245920"
 	Hub.Position = UDim2.new(0, 150, 0, 0)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
-	Hub.Text = " Blox Fruit Update 18"
+	Hub.Text = " Blox Fruit"
 	Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.TextSize = 14.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -814,7 +814,7 @@ local postog12 = Instance.new("UIStroke")
  Space.Position = UDim2.new(0, 30, 0, 0)
  Space.Size = UDim2.new(0, 15, 0, 30)
  Space.Font = Enum.Font.GothamSemibold
- Space.Text = "|"
+ Space.Text = ""
  Space.TextSize = 12.000
  Space.TextColor3 = Color3.fromRGB(255,225,225)
  Space.TextXAlignment = Enum.TextXAlignment.Center
@@ -3801,7 +3801,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("MADOX ","")
+local Library = Update:Window("BinbinvoGaming","")
 ------------------------------------------
 
 spawn(function()
