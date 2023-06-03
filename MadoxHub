@@ -1165,7 +1165,7 @@ Space.BackgroundTransparency = 1.000
 Space.Position = UDim2.new(0, 30, 0, 0)
 Space.Size = UDim2.new(0, 15, 0, 30)
 Space.Font = Enum.Font.GothamSemibold
-Space.Text = "|"
+Space.Text = ""
 Space.TextSize = 15.000
 Space.TextColor3 = Color3.fromRGB(224,224,224)
 Space.TextXAlignment = Enum.TextXAlignment.Center
@@ -3801,7 +3801,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("MADOX ","")
+local Library = Update:Window("Ngao Gaming ","")
 ------------------------------------------
 
 spawn(function()
